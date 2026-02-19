@@ -1,8 +1,8 @@
 ---
 name: paywall-upgrade-cro
-description: When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions "paywall," "upgrade screen," "upgrade modal," "upsell," "feature gate," "convert free to paid," "freemium conversion," "trial expiration screen," "limit reached screen," "plan upgrade prompt," or "in-app pricing." Distinct from public pricing pages (see page-cro) — this skill focuses on in-product upgrade moments where the user has already experienced value.
+description: When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions "paywall," "upgrade screen," "upgrade modal," "upsell," "feature gate," "convert free to paid," "freemium conversion," "trial expiration screen," "limit reached screen," "plan upgrade prompt," or "in-app pricing." Distinct from public pricing pages (see page-cro) — this skill focuses on in-product upgrade moments where the user has already experienced value. Also use when the user mentions "order bump," "one-time offer," "OTO," "post-purchase upsell," "downsell," or "checkout optimization."
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 # Paywall and Upgrade Screen CRO
@@ -193,6 +193,110 @@ What you've accomplished:
 
 ---
 
+## Order Bumps
+
+An order bump is an additional offer presented on the checkout page before payment. The customer checks a box to add it to their purchase.
+
+### Best Practices
+- Place directly above or near the payment button
+- Price at 30-60% of main offer (sweet spot: $17-$67 for info products)
+- Must complement the main purchase (not compete with it)
+- Short, compelling description — no separate sales page needed
+- Use a checkbox with descriptive label, not a separate CTA
+
+### Order Bump Template
+```
+┌─────────────────────────────────────────────┐
+│ ☐ YES! Add [Product Name] for just $[XX]   │
+│                                              │
+│ [One-sentence description of what it is      │
+│  and why it's valuable with the main offer]  │
+│                                              │
+│ Regular price: $[Higher]. Today only: $[XX]  │
+└─────────────────────────────────────────────┘
+```
+
+### High-Converting Order Bump Types
+| Type | Example | Why It Works |
+|------|---------|-------------|
+| Templates/swipe files | "Done-for-you templates" | Saves implementation time |
+| Speed/shortcut | "Quick-start guide" | Gets results faster |
+| Advanced training | "Advanced module" | For overachievers |
+| Physical complement | "Printed workbook shipped to you" | Tangible + digital combo |
+| Extended access | "Lifetime access upgrade" | Removes time pressure |
+
+### Metrics
+- Typical take rate: 25-45% of buyers
+- Expected AOV increase: 30-50%
+
+---
+
+## One-Time Offers (OTOs)
+
+A one-time offer (OTO) appears immediately after the initial purchase, before the thank-you page. The customer has already entered payment info, reducing friction for the upsell.
+
+### OTO Page Structure
+1. **Congratulations headline** — Acknowledge the purchase they just made
+2. **Bridge** — "Because you just got [product], you qualify for..."
+3. **The offer** — Present the upsell with its own value proposition
+4. **Why now** — This price is only available right now, right here
+5. **Value stack** — Show what's included and the total value
+6. **Price reveal** — Significantly discounted from "normal" price
+7. **Yes/No buttons** — Clear accept and decline options
+
+### OTO Sequence (Post-Purchase Flow)
+
+```
+Purchase → OTO 1 (Upsell) → OTO 2 (Upsell or Downsell) → Thank You Page
+                ↓ (No)                    ↓ (No)
+         Downsell 1                  Thank You Page
+                ↓ (No)
+         Thank You Page
+```
+
+### OTO Types
+
+| Position | Type | Price Relative to Front-End | Purpose |
+|----------|------|---------------------------|---------|
+| OTO 1 | Upsell | 2-5x main offer | More comprehensive solution |
+| Downsell 1 | Downsell | 0.5-1x main offer | Lower-priced alternative if OTO 1 declined |
+| OTO 2 | Cross-sell | 1-3x main offer | Complementary product/service |
+
+### OTO Best Practices
+- One-click purchase (no re-entering payment info)
+- Clear "No thanks" button (never hide the decline option)
+- Each OTO should stand alone (don't require previous OTOs)
+- Limit to 2-3 OTOs max (beyond that, conversion drops sharply)
+- Congratulate on previous purchase before pitching next offer
+
+### Metrics
+- OTO 1 conversion: 10-25% of buyers
+- Downsell conversion: 5-15% of OTO decliners
+- OTO 2 conversion: 5-15% of buyers
+
+---
+
+## Post-Purchase Upsell Strategies
+
+Beyond immediate OTOs, use ongoing post-purchase strategies to increase customer lifetime value.
+
+### Immediate (0-7 Days Post-Purchase)
+- **Onboarding upsell**: Offer premium onboarding or setup service
+- **Acceleration offer**: "Get results faster" with additional coaching/support
+- **Complementary product**: Related product that enhances the purchase
+
+### Short-Term (7-30 Days Post-Purchase)
+- **Results-based upgrade**: After they've used the product and seen initial results, offer the next level
+- **Community/membership**: Invite to ongoing membership for continued support
+- **Advanced training**: Deeper training on the topic they purchased
+
+### Long-Term (30+ Days Post-Purchase)
+- **Ascension offer**: Natural next step in the Value Ladder
+- **Annual upgrade**: Switch monthly to annual billing
+- **VIP/premium tier**: Exclusive access, higher-touch support
+
+---
+
 ## Anti-Patterns to Avoid
 
 ### Dark Patterns
@@ -224,3 +328,7 @@ What you've accomplished:
 - **page-cro**: For public pricing page optimization
 - **onboarding-cro**: For driving to aha moment before upgrade
 - **ab-test-setup**: For testing paywall variations
+- **offer-creation**: For designing the complete offer stack
+- **value-ladder-design**: For the ascending offer journey
+- **funnel-architecture**: For understanding where upsells fit in the funnel
+- **sales-page-architecture**: For OTO page design

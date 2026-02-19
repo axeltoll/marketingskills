@@ -1,13 +1,13 @@
 ---
 name: pricing-strategy
-description: "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' or 'monetization.' This skill covers pricing research, tier structure, and packaging strategy."
+description: "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' or 'monetization.' This skill covers pricing research, tier structure, and packaging strategy. Also use when the user mentions 'offer pricing,' 'course pricing,' 'coaching packages,' 'payment plans,' 'free plus shipping,' 'info product pricing,' or 'value stacking.'"
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 # Pricing Strategy
 
-You are an expert in SaaS pricing and monetization strategy. Your goal is to help design pricing that captures value, drives growth, and aligns with customer willingness to pay.
+You are an expert in pricing and monetization strategy across SaaS, info products, coaching, e-commerce, and service businesses. Your goal is to help design pricing that captures value, drives growth, and aligns with customer willingness to pay.
 
 ## Before Starting
 
@@ -209,6 +209,103 @@ Identifies which features customers value most:
 
 ---
 
+## Info Product & Course Pricing
+
+### Price Point Ranges by Format
+
+| Format | Typical Range | Value Perception Driver |
+|--------|--------------|------------------------|
+| Ebook / PDF guide | $7-$47 | Specific, actionable content |
+| Mini-course (1-3 hours) | $47-$197 | Quick transformation or skill |
+| Flagship course (10+ hours) | $197-$2,000 | Comprehensive system or methodology |
+| Certification program | $500-$5,000 | Credential + curriculum |
+| Live cohort course | $500-$5,000 | Accountability + community + access |
+| Coaching package (group) | $1,000-$10,000 | Personalized guidance + community |
+| Coaching package (1:1) | $3,000-$25,000 | Direct access + customized strategy |
+| Mastermind | $10,000-$100,000 | Network + peer learning + access |
+
+### Value Stacking Methodology
+
+Instead of justifying price by features alone, stack the total value to dwarf the price:
+
+1. **Core offer** — What they get (assign retail value)
+2. **Bonus 1** — Complementary resource (assign value)
+3. **Bonus 2** — Templates/swipe files (assign value)
+4. **Bonus 3** — Community access (assign value)
+5. **Bonus 4** — Live Q&A / coaching calls (assign value)
+6. **Total value** — Sum of all components
+7. **Your price** — Fraction of total value
+
+Example: "Total value: $4,997. Your investment today: $497."
+
+The gap between stacked value and price creates perceived deal.
+
+---
+
+## Free + Shipping Model
+
+A physical or digital product offered free where the customer pays only shipping ($7-$15). Used as a front-end offer to identify buyers.
+
+### When to Use
+- You have a physical product that costs <$5 to produce
+- You want to convert leads into buyers quickly
+- You're running paid traffic and need to offset ad costs
+- You want to build a buyer list (more valuable than a lead list)
+
+### Economics
+- Shipping charge: $7.95-$14.95
+- Product cost + fulfillment: $3-$8
+- Margin: $2-$10 per sale
+- Real money comes from the order bump and OTO on the next pages
+
+### Best Practices
+- Product must deliver genuine value (not perceived as worthless)
+- "Free + Shipping" in the headline, not hidden
+- Order bump on checkout page (adds $15-$50 average order value)
+- One-time offer immediately after purchase
+
+---
+
+## Payment Plans
+
+Offer payment plans for mid-to-high-ticket products to reduce purchase friction.
+
+### Standard Payment Plan Structures
+
+| Total Price | Payment Options | Premium |
+|-------------|----------------|---------|
+| $497 | 3 x $197 ($591 total) | 19% |
+| $997 | 3 x $397 ($1,191 total) | 19% |
+| $1,997 | 6 x $397 ($2,382 total) | 19% |
+| $4,997 | 12 x $497 ($5,964 total) | 19% |
+
+### Best Practices
+- Always present pay-in-full as the better deal (anchor with payment plan price first)
+- Payment plan premium: 15-20% higher total (covers default risk + admin)
+- Require credit card on file for recurring payments
+- Send payment reminders 3 days before each charge
+- Have a clear failed payment recovery sequence
+
+---
+
+## Pricing Presentation
+
+### Anchoring Strategy
+Always anchor with a higher number first, then reveal the actual price:
+1. Show the value of the alternative (hiring a consultant: $10,000)
+2. Show the total stacked value ($4,997)
+3. Reveal the actual price ($497)
+4. Show the payment plan option (3 x $197)
+
+### Trial Close Methodology
+Throughout presentations and sales pages, use trial closes to build commitment:
+- "If all this did was [specific benefit], would it be worth [price]?"
+- "If you could [achieve outcome] in [timeframe], would that be valuable?"
+- Stack 3-5 trial closes before revealing price
+- Each trial close should reference a different benefit
+
+---
+
 ## Task-Specific Questions
 
 1. What pricing research have you done?
@@ -226,3 +323,6 @@ Identifies which features customers value most:
 - **copywriting**: For pricing page copy
 - **marketing-psychology**: For pricing psychology principles
 - **ab-test-setup**: For testing pricing changes
+- **offer-creation**: For designing the complete offer that pricing supports
+- **value-ladder-design**: For pricing across the entire customer journey
+- **sales-page-architecture**: For presenting pricing on sales pages

@@ -2,7 +2,7 @@
 name: marketing-psychology
 description: "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' or 'consumer behavior.' This skill provides 70+ mental models organized for marketing application."
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 # Marketing Psychology & Mental Models
@@ -201,7 +201,7 @@ Once you know something, you can't imagine not knowing it. Experts struggle to e
 ### Mental Accounting
 People treat money differently based on its source or intended use, even though money is fungible.
 
-**Marketing application**: Frame costs in favorable mental accounts. "$3/day" feels different than "$90/month" even though it's the same.
+**Marketing application**: Frame costs in favorable mental accounts. "$3/day" feels different than "$90/month" even though it's the same. "Less than your morning coffee" reframes the expense into a familiar, trivial category.
 
 ### Regret Aversion
 People avoid actions that might cause regret, even if the expected outcome is positive.
@@ -310,11 +310,6 @@ People judge prices relative to options presented. A middle tier seems reasonabl
 
 **Marketing application**: Three tiers where the middle is your target. The expensive tier makes it look reasonable; the cheap tier provides an anchor.
 
-### Mental Accounting (Pricing)
-Framing the same price differently changes perception.
-
-**Marketing application**: "$1/day" feels cheaper than "$30/month." "Less than your morning coffee" reframes the expense.
-
 ---
 
 ## Design & Delivery Models
@@ -341,20 +336,10 @@ Small changes in how choices are presented significantly influence decisions.
 
 **Marketing application**: Default selections, strategic ordering, and friction reduction guide behavior without restricting choice.
 
-### BJ Fogg Behavior Model
-Behavior = Motivation × Ability × Prompt. All three must be present for action.
+### Behavior Design (BJ Fogg / EAST / COM-B)
+Behavior = Motivation × Ability × Prompt (Fogg). Make it Easy, Attractive, Social, Timely (EAST). Ensure Capability, Opportunity, and Motivation (COM-B). All three frameworks converge: desired actions require both motivation and ability, triggered at the right moment.
 
-**Marketing application**: High motivation but hard to do = won't happen. Easy to do but no prompt = won't happen. Design for all three.
-
-### EAST Framework
-Make desired behaviors: Easy, Attractive, Social, Timely.
-
-**Marketing application**: Reduce friction (easy), make it appealing (attractive), show others doing it (social), ask at the right moment (timely).
-
-### COM-B Model
-Behavior requires: Capability, Opportunity, Motivation.
-
-**Marketing application**: Can they do it (capability)? Is the path clear (opportunity)? Do they want to (motivation)? Address all three.
+**Marketing application**: High motivation but hard to do = won't happen. Easy but no prompt = won't happen. Design for all three: reduce friction, make it appealing, show others doing it, and ask at the right moment.
 
 ### Activation Energy
 The initial energy required to start something. High activation energy prevents action even if the task is easy overall.
@@ -419,6 +404,62 @@ Focusing on successes while ignoring failures that aren't visible.
 
 ---
 
+## Persuasion Frameworks for Offers
+
+These models are specifically designed for structuring offers and sales presentations.
+
+### The Big Domino
+Every product sale requires toppling one core belief. Instead of fighting every objection individually, identify the single belief that, once accepted, makes all other objections irrelevant.
+
+**Formula:** "If I can make them believe that [new opportunity] is the key to [desired result] and is only attainable through [my specific vehicle], then all other objections become irrelevant."
+
+**Marketing application:** Identify your Big Domino and structure all marketing around toppling it. Your stories, proof, and content should all support this one core belief change. If they believe the Big Domino, the sale follows naturally.
+
+### New Opportunity vs. Improvement
+People resist "improvements" because they've tried and failed before. Positioning your offer as a completely new opportunity sidesteps this resistance.
+
+- **Improvement**: "A better way to do X" → triggers skepticism ("I've tried things like this")
+- **New Opportunity**: "A completely new vehicle for achieving Y" → triggers curiosity ("I haven't tried this before")
+
+**Marketing application:** Always position your offer as a new opportunity, not an improvement on existing solutions. Create a new category or reframe the approach so prospects can't compare it to past failures.
+
+### Trial Closes
+Micro-commitment questions asked throughout a presentation that build "yes" momentum before the final ask.
+
+**Formula:** "If all this did was [specific benefit], would it be worth [price]?"
+
+**Stack trial closes:**
+1. "If all this did was save you 10 hours a week, would it be worth $497?"
+2. "If all this did was help you land 3 new clients, would it be worth $497?"
+3. "If all this did was eliminate [specific pain], would it be worth $497?"
+
+**Marketing application:** Use trial closes on sales pages (as section transitions), in webinar presentations (between content sections), and in email sequences (building toward the offer). By the time you ask for the sale, they've already said "yes" mentally multiple times.
+
+### The 3 Secrets Framework
+Structure presentations around three "secrets" (belief shifts) the audience needs to accept:
+
+1. **Secret 1: The Vehicle** — Why this new opportunity is the right vehicle (breaks the belief that their old approach will work)
+2. **Secret 2: Internal Beliefs** — Why THEY can succeed with this vehicle (breaks the belief that they can't do it)
+3. **Secret 3: External Beliefs** — Why external factors won't prevent success (breaks the belief that outside forces will stop them)
+
+**Marketing application:** Structure webinars, sales pages, and long-form content around these three belief shifts. Each "secret" includes an Epiphany Bridge story that creates the belief change.
+
+### The Stack Slide
+A closing technique where you visually stack all the value being offered before revealing the price.
+
+**Structure:**
+1. List everything included with individual values
+2. Add bonuses with individual values
+3. Total the value (should be 5-10x the price)
+4. Reveal the actual price
+5. Show the discount/savings
+6. Add guarantee
+7. Present the CTA
+
+**Marketing application:** Use on sales pages (the "what you get" section before the buy button), at the end of webinar presentations, and in closing emails. The visual stacking of value creates a contrast effect that makes the price feel like a steal.
+
+---
+
 ## Quick Reference
 
 When facing a marketing challenge, consider:
@@ -433,6 +474,7 @@ When facing a marketing challenge, consider:
 | Growth stalling | Theory of Constraints, Local vs Global Optima, Compounding |
 | Decision paralysis | Paradox of Choice, Default Effect, Nudge Theory |
 | Onboarding | Goal-Gradient, IKEA Effect, Commitment & Consistency |
+| Offer design | Big Domino, Trial Closes, New Opportunity, Stack Slide, 3 Secrets |
 
 ---
 
@@ -451,5 +493,7 @@ When facing a marketing challenge, consider:
 - **page-cro**: Apply psychology to page optimization
 - **copywriting**: Write copy using psychological principles
 - **popup-cro**: Use triggers and psychology in popups
-- **pricing-page optimization**: See page-cro for pricing psychology
 - **ab-test-setup**: Test psychological hypotheses
+- **offer-creation**: For applying psychology to offer design
+- **webinar-script**: For using these frameworks in presentations
+- **sales-page-architecture**: For applying psychology to page structure

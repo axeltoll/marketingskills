@@ -1,8 +1,8 @@
 ---
 name: email-sequence
-description: When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions "email sequence," "drip campaign," "nurture sequence," "onboarding emails," "welcome sequence," "re-engagement emails," "email automation," or "lifecycle emails." For in-app onboarding, see onboarding-cro.
+description: When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions "email sequence," "drip campaign," "nurture sequence," "onboarding emails," "welcome sequence," "re-engagement emails," "email automation," or "lifecycle emails." Also use when the user mentions "soap opera sequence," "SOS emails," "daily broadcast," "seinfeld emails," "behavioral segmentation," "ascension emails," or "follow-up funnels." For in-app onboarding, see onboarding-cro.
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 # Email Sequence Design
@@ -247,6 +247,130 @@ Key emails:
 
 ---
 
+## Soap Opera Sequence
+
+The Soap Opera Sequence (SOS) is a 5-email story-driven welcome sequence. Each email opens a loop that the next email closes, creating compulsive readability.
+
+### Structure
+
+**Email 1: Set the Stage**
+- Deliver the promised lead magnet/resource
+- Introduce yourself with a hint of your origin story
+- Open a curiosity loop: "Tomorrow I'll share the biggest mistake I made with [topic]..."
+- Goal: Set expectations, build anticipation
+
+**Email 2: High Drama + Backstory**
+- Tell a dramatic story from your journey (the wall, the failure, the low point)
+- Create emotional connection through vulnerability
+- Close the loop from Email 1, open a new one
+- Goal: Build rapport and trust through story
+
+**Email 3: The Epiphany**
+- Share the breakthrough moment — what you discovered
+- Connect the epiphany to how it can help them
+- Close the loop from Email 2, open a new one
+- Goal: Create an "aha moment" that shifts their belief
+
+**Email 4: Hidden Benefits**
+- Reveal unexpected advantages of your approach/product
+- Share supporting proof (case studies, results, testimonials)
+- Build desire through specificity
+- Goal: Deepen conviction, address objections through story
+
+**Email 5: Urgency + CTA**
+- Create urgency (genuine deadline, limited spots, rising prices)
+- Recap the transformation journey
+- Clear, direct call to action
+- Goal: Convert through natural story conclusion
+
+### Key Principles
+- Every email must end with a cliffhanger or curiosity hook
+- Each email should be readable in 2-3 minutes
+- Stories must be genuine — manufactured drama kills trust
+- The sequence should feel like a conversation, not a campaign
+
+---
+
+## Seinfeld Daily Broadcast
+
+After the welcome/SOS sequence, move subscribers to the Seinfeld sequence — daily or near-daily emails that are 90% story/entertainment and 10% offer.
+
+### Philosophy
+Named after the show — "a show about nothing" that kept millions watching. Your daily emails maintain relationship through storytelling and personality, with a soft pitch woven in.
+
+### Structure
+- **90% Story/Entertainment**: Personal anecdotes, lessons learned, observations, hot takes, curated insights
+- **10% Offer**: A natural bridge from the story to your product/offer — never forced
+
+### Content Ideas for Daily Broadcasts
+- A lesson from a conversation you had
+- Something that annoyed you (related to your industry)
+- A customer success story told narratively
+- A contrarian opinion with reasoning
+- Behind-the-scenes of your business
+- A pop culture reference tied to a business lesson
+- A mistake you made and what you learned
+
+### Best Practices
+- Write like you're emailing one person
+- Subject lines should be intriguing, not descriptive
+- Stories don't need to be long — 200-400 words is ideal
+- Always end with a CTA, even if it's just "hit reply"
+- Consistency matters more than frequency (3x/week beats sporadic daily)
+
+---
+
+## Behavioral Email Segmentation
+
+Move beyond linear sequences to behavior-triggered email flows that adapt to subscriber actions.
+
+### Trigger Types
+
+| Trigger | Action | Sequence |
+|---------|--------|----------|
+| Clicks link about Topic A | Tag with interest | Enter Topic A nurture sequence |
+| Opens 5+ emails in a row | Tag as highly engaged | Enter fast-track offer sequence |
+| Doesn't open for 30 days | Tag as disengaged | Enter re-engagement sequence |
+| Visits pricing page | Tag as sales-ready | Enter direct offer sequence |
+| Purchases Product A | Tag as buyer | Enter Product B ascension sequence |
+| Abandons cart | Tag as abandoned | Enter cart recovery sequence |
+| Downloads lead magnet | Tag by lead magnet type | Enter topic-specific nurture |
+
+### Segmentation Strategy
+1. **By engagement level**: Hot (opens everything) → Warm (occasional) → Cold (dormant)
+2. **By interest**: Based on link clicks, content consumed, pages visited
+3. **By buyer stage**: Lead → Prospect → Customer → Repeat buyer → Advocate
+4. **By product interest**: Based on which offers they've viewed or engaged with
+
+---
+
+## Ascension Sequences
+
+Post-purchase email flows that move buyers up the Value Ladder. The goal is to nurture customers toward the next offer in your ascending journey.
+
+### Front-End → Core Offer Ascension (5-7 emails)
+1. **Delivery + Quick Win** (immediate) — Deliver what they bought, help them get a quick result
+2. **Success Check-In** (day 2) — Did they use it? Need help?
+3. **Deeper Value** (day 4) — Show them an advanced way to use what they bought
+4. **Limitation Reveal** (day 6) — Gently reveal the ceiling of their current purchase
+5. **Bridge to Next Offer** (day 8) — Introduce the next level as natural progression
+6. **Social Proof** (day 10) — Show results from people who took the next step
+7. **Direct Offer** (day 12) — Clear pitch for the core offer with urgency
+
+### Core → Premium Ascension
+Similar structure but:
+- Longer delays between emails (trust is already established)
+- More emphasis on results and ROI
+- Personal touch (video messages, direct invitations)
+- Higher-touch selling (application or call booking)
+
+### Key Principles
+- Never pitch the next offer before they've gotten value from the current one
+- Frame the next level as the natural next step, not a replacement
+- Use customer stories of people who ascended successfully
+
+---
+
 ## Output Format
 
 ### Sequence Overview
@@ -305,3 +429,6 @@ For implementation, see the [tools registry](../../tools/REGISTRY.md). Key email
 - **copywriting**: For landing pages emails link to
 - **ab-test-setup**: For testing email elements
 - **popup-cro**: For email capture popups
+- **value-ladder-design**: For designing the ascension path emails support
+- **offer-creation**: For understanding what each email sequence is ultimately selling
+- **funnel-architecture**: For understanding where email sequences fit in the funnel

@@ -1,8 +1,8 @@
 ---
 name: social-content
-description: "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'viral content.' This skill covers content creation, repurposing, and platform-specific strategies."
+description: "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' or 'viral content.' This skill covers content creation, repurposing, and platform-specific strategies. Also use when the user mentions 'hook story offer,' 'HSO,' or 'content framework.'"
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 # Social Content
@@ -102,6 +102,67 @@ The first line determines whether anyone reads the rest.
 - "I stopped [common practice] and [positive result]."
 
 **For post templates and more hooks**: See [references/post-templates.md](references/post-templates.md)
+
+---
+
+## Hook, Story, Offer System
+
+Every social post should follow the HSO framework. This is the universal structure for content that builds audience AND drives business results.
+
+### The Three Parts
+
+**Hook (First Line)**
+The hook determines whether anyone reads the rest. It must pattern-interrupt the scroll.
+- Stop the scroll with something unexpected
+- Create a curiosity gap they need to close
+- Make a bold claim or share a surprising result
+- Ask a question that makes them think about their own situation
+
+**Story (Middle)**
+The story builds connection and delivers the lesson. This is where you earn attention.
+- Share a personal experience, observation, or insight
+- Use specific details (names, numbers, dates) to make it vivid
+- Create emotional resonance — make them feel something
+- Build toward a single takeaway or lesson
+
+**Offer (Last Line)**
+The offer is the CTA — what you want them to do next. Not always a sale.
+- **Engagement offer**: "What's your experience with this? Drop a comment."
+- **Content offer**: "I wrote a full guide on this — link in bio/comments."
+- **Product offer**: "We built [product] to solve exactly this. Try it free."
+- **Conversation offer**: "DM me [keyword] and I'll send you the template."
+- **Follow offer**: "Follow for more [topic] insights."
+
+### HSO by Platform
+
+| Platform | Hook Style | Story Length | Offer Style |
+|----------|-----------|-------------|------------|
+| LinkedIn | Professional insight, data point, contrarian take | 3-8 paragraphs | Comment CTA, link in comments |
+| Twitter/X | Bold statement, number, question | 1-3 tweets or full thread | Reply CTA, link in bio |
+| Instagram | Visual hook + caption first line | Short caption or carousel slides | DM, link in bio, save CTA |
+| TikTok | First 2 seconds visual + verbal hook | 15-60 second story arc | Follow, comment, link in bio |
+
+### HSO Post Templates
+
+**The Lesson Post**
+> Hook: "I spent $10K learning this the hard way."
+> Story: [What happened, what went wrong, what you learned]
+> Offer: "Save yourself the tuition — bookmark this for later."
+
+**The Framework Post**
+> Hook: "The 3-step process behind every viral launch:"
+> Story: [Step 1, Step 2, Step 3 with brief examples]
+> Offer: "Want the full playbook? Link in comments."
+
+**The Contrarian Post**
+> Hook: "Everyone says [common advice]. They're wrong."
+> Story: [Why the common advice fails, what works instead, proof]
+> Offer: "Agree or disagree? Tell me in the comments."
+
+**The Transformation Post**
+> Hook: "6 months ago: [before state]. Today: [after state]."
+> Story: [The journey, the turning points, the specific actions]
+> Offer: "If you're at the 'before' stage, here's what I'd do first..."
 
 ---
 
@@ -276,3 +337,6 @@ Instead of guessing, analyze what's working for top creators in your niche:
 - **launch-strategy**: For coordinating social with launches
 - **email-sequence**: For nurturing social audience via email
 - **marketing-psychology**: For understanding what drives engagement
+- **expert-positioning**: For building the personal brand behind your social content
+- **offer-creation**: For designing offers to promote through social
+- **lead-magnet-strategy**: For creating lead magnets to drive from social

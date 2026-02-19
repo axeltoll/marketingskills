@@ -5,14 +5,14 @@
     "url": "https://corey.co"
   },
   "metadata": {
-    "description": "Marketing skills for Claude Code — conversion optimization, copywriting, SEO, paid ads, and growth",
-    "version": "1.0.0",
+    "description": "Marketing skills for Claude Code — funnel architecture, offer design, conversion optimization, copywriting, SEO, paid ads, and growth",
+    "version": "2.0.0",
     "repository": "https://github.com/coreyhaines31/marketingskills"
   },
   "plugins": [
     {
       "name": "marketing-skills",
-      "description": "26 marketing skills for technical marketers and founders: CRO, copywriting, cold email, SEO, paid ads, pricing strategy, referral programs, and more",
+      "description": "38 marketing skills for technical marketers and founders: funnel architecture, offer design, story-based selling, CRO, copywriting, cold email, SEO, paid ads, pricing strategy, memberships, and more"
       "source": "./",
       "strict": false,
       "skills": [
@@ -23,12 +23,19 @@
         "./skills/content-strategy",
         "./skills/copy-editing",
         "./skills/copywriting",
+        "./skills/dream-100-partnerships",
         "./skills/email-sequence",
+        "./skills/expert-positioning",
         "./skills/form-cro",
         "./skills/free-tool-strategy",
+        "./skills/funnel-analytics",
+        "./skills/funnel-architecture",
         "./skills/launch-strategy",
+        "./skills/lead-magnet-strategy",
         "./skills/marketing-ideas",
         "./skills/marketing-psychology",
+        "./skills/membership-continuity",
+        "./skills/offer-creation",
         "./skills/onboarding-cro",
         "./skills/page-cro",
         "./skills/paid-ads",
@@ -38,10 +45,15 @@
         "./skills/product-marketing-context",
         "./skills/programmatic-seo",
         "./skills/referral-program",
+        "./skills/sales-page-architecture",
         "./skills/schema-markup",
         "./skills/seo-audit",
         "./skills/signup-flow-cro",
-        "./skills/social-content"
+        "./skills/social-content",
+        "./skills/story-based-selling",
+        "./skills/value-ladder-design",
+        "./skills/video-sales-content",
+        "./skills/webinar-script"
       ]
     }
   ]

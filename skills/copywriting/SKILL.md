@@ -1,8 +1,8 @@
 ---
 name: copywriting
-description: When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says "write copy for," "improve this copy," "rewrite this page," "marketing copy," "headline help," or "CTA copy." For email copy, see email-sequence. For popup copy, see popup-cro.
+description: When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says "write copy for," "improve this copy," "rewrite this page," "marketing copy," "headline help," or "CTA copy." Also use when the user mentions 'story-based selling,' 'epiphany bridge,' 'hook story offer,' or 'HSO.' For email copy, see email-sequence. For popup copy, see popup-cro.
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 # Copywriting
@@ -243,6 +243,120 @@ For headlines and CTAs, provide 2-3 options:
 
 ---
 
+## Story-Based Selling
+
+### Hook, Story, Offer Framework
+Every piece of marketing content follows HSO. This is the universal structure for persuasive communication.
+
+**Hook** — Grab attention in the first line. Pattern interrupt, bold claim, or curiosity gap.
+**Story** — Build connection through narrative. Share a relatable experience that bridges to your message.
+**Offer** — Present the solution. What do you want them to do next?
+
+### Applying HSO to Different Formats
+
+| Format | Hook | Story | Offer |
+|--------|------|-------|-------|
+| Landing page | Headline + subhead | Problem/solution narrative | CTA |
+| Email | Subject line + first line | Body narrative | CTA button |
+| Social post | First line | Middle section | Last line |
+| Ad | First 3 seconds/headline | Ad body | CTA |
+| Sales page | Above the fold | Long-form body | Stack + close |
+
+---
+
+## Epiphany Bridge Script
+
+The Epiphany Bridge is a story framework that takes your audience through the same emotional journey you experienced when you discovered the solution. Instead of telling people what to believe, you help them experience the epiphany themselves.
+
+### The 8-Step Epiphany Bridge
+
+1. **Backstory** — Set the scene. What was life like before? Make it relatable.
+2. **Desire** — What did you want to achieve? What was the goal?
+3. **The Wall** — What obstacle stopped you? What failed?
+4. **The Epiphany** — What moment changed everything? What did you discover?
+5. **The Plan** — What did you do with that new understanding?
+6. **The Conflict** — What challenges arose during implementation?
+7. **The Achievement** — What results did you get?
+8. **The Transformation** — How is life different now? What's the new reality?
+
+### When to Use Epiphany Bridge
+- Origin stories (how the founder/product came to be)
+- Customer transformation stories (case studies reimagined as narrative)
+- Product discovery stories (how a feature was born)
+- Sales pages (leading to the "aha" moment about your product)
+- Webinar content (leading to the offer)
+
+### Template
+> "I used to [backstory]. I wanted [desire], but [wall] kept stopping me. Then I discovered [epiphany]. I realized that [insight]. So I [plan]. It wasn't easy — [conflict]. But eventually [achievement]. Now [transformation]."
+
+---
+
+## New Opportunity vs. Improvement Positioning
+
+Position your offer as a NEW vehicle to get the desired result, not an improvement on what they've tried before.
+
+### Why This Matters
+- People are skeptical of "improvements" because they've tried and failed before
+- "New opportunity" sidesteps the "I've tried things like this" objection
+- It creates excitement rather than skepticism
+- Improvement = competing with existing solutions; New opportunity = creating a new category
+
+### How to Position as New Opportunity
+
+| Instead of | Say |
+|------------|-----|
+| "A better project management tool" | "A new way to ship projects without meetings" |
+| "Improved email marketing" | "Revenue automation that replaces your newsletter" |
+| "A faster CRM" | "The anti-CRM for founders who hate data entry" |
+
+### The Test
+Ask: "Would a prospect say 'I've tried something like this before'?" If yes, you're positioning as an improvement. Reframe until the answer is no.
+
+---
+
+## Story Types Library
+
+### Origin Story
+How you discovered the solution. Use the Epiphany Bridge script. This is your most important story — it establishes credibility and connection.
+
+### Customer Transformation Story
+A customer's journey from problem to solution using your product. Structure: Their life before → The struggle → Finding you → The result → Their life now.
+
+### "Aha Moment" Story
+A specific moment when something clicked. Short, punchy, focused on one insight. Best for social content and emails.
+
+### Failure Story
+A time you tried something that didn't work and what you learned. Builds trust through vulnerability (Pratfall Effect). Shows you understand the pain because you've lived it.
+
+### Vulnerability Story
+Sharing a personal challenge, insecurity, or mistake. Creates deep connection and relatability. Must be genuine, not manufactured.
+
+### Vision Story
+Where you're going and why it matters. Paints a picture of the future you're building. Inspires action and creates movement.
+
+---
+
+## The Big Domino Statement
+
+The single belief that, once accepted, makes all other objections irrelevant.
+
+### Formula
+"If I can make them believe that [new opportunity] is the key to [desired result] and is only attainable through [my specific vehicle], then all other objections become irrelevant."
+
+### How to Find Your Big Domino
+1. List every objection prospects raise
+2. Ask: "What single belief, if they held it, would make all these objections irrelevant?"
+3. That belief is your Big Domino
+4. Every piece of marketing should topple this domino
+
+### Using the Big Domino in Copy
+- Headlines should hint at it
+- Stories should demonstrate it
+- Proof should support it
+- CTAs should promise the result of believing it
+
+---
+
 ## Related Skills
 
 - **copy-editing**: For polishing existing copy (use after your draft)
@@ -250,3 +364,6 @@ For headlines and CTAs, provide 2-3 options:
 - **email-sequence**: For email copywriting
 - **popup-cro**: For popup and modal copy
 - **ab-test-setup**: To test copy variations
+- **expert-positioning**: For building the Attractive Character behind the copy
+- **offer-creation**: For designing what the copy is selling
+- **sales-page-architecture**: For page-specific copy structures

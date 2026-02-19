@@ -1,8 +1,8 @@
 ---
 name: launch-strategy
-description: "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' or 'product update.' This skill covers phased launches, channel strategy, and ongoing launch momentum."
+description: "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' or 'product update.' This skill covers phased launches, channel strategy, and ongoing launch momentum. Also use when the user mentions 'product launch formula,' 'PLF,' 'launch sequence,' 'content launch,' or 'cart open.'"
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 # Launch Strategy
@@ -297,6 +297,85 @@ Even small changelog updates remind customers your product is evolving. This bui
 
 ---
 
+## Product Launch Formula (PLF)
+
+The Jeff Walker Product Launch Formula is a content-based launch framework that builds desire and urgency through a 4-video sequence released over 7-10 days.
+
+### Pre-Launch Content Sequence
+
+**Video 1: "The Opportunity" (Day 1)**
+- Introduce the big opportunity/transformation
+- Establish your authority and credibility
+- Show what's possible (results, case studies)
+- Create curiosity about HOW it works
+- Goal: Get them to watch Video 2
+
+**Video 2: "The Transformation" (Day 3-4)**
+- Teach something valuable (demonstrate competence)
+- Share the framework/methodology at a high level
+- Address the "I can't do this" internal objection
+- Build desire for the complete system
+- Goal: Shift beliefs, build anticipation
+
+**Video 3: "The Ownership Experience" (Day 5-7)**
+- Go deeper into the methodology
+- Share more success stories and proof
+- Address external objections ("it won't work for me because...")
+- Paint a vivid picture of life after transformation
+- Goal: Move from "interested" to "I need this"
+
+**Video 4: "The Open Cart" (Day 7-10)**
+- Recap the transformation and proof
+- Reveal the complete offer with value stack
+- Open enrollment with a deadline
+- Limited-time bonuses for fast action
+- Goal: Convert interest into sales
+
+### Launch Email Sequence for PLF
+
+| Day | Email | Purpose |
+|-----|-------|---------|
+| Day 1 | Video 1 release | Drive to first video |
+| Day 2 | Video 1 reminder | Catch non-openers |
+| Day 3 | Video 2 release | Drive to second video |
+| Day 5 | Video 3 release | Drive to third video |
+| Day 7 | Cart open | Announce availability + offer |
+| Day 8 | FAQ + objections | Handle hesitations |
+| Day 9 | Case study | Social proof push |
+| Day 10 | Last chance (AM) | Urgency — closing soon |
+| Day 10 | Final call (PM) | Last email before close |
+
+---
+
+## Content-Based Launch Framework
+
+An alternative to PLF for businesses that prefer written or mixed-media content over video.
+
+### Structure (10-14 Day Launch)
+
+**Phase 1: Seed (Days 1-3)**
+- Publish 2-3 pieces of high-value content related to the launch topic
+- Drop hints about something coming
+- Build anticipation without revealing the offer
+
+**Phase 2: Educate (Days 4-7)**
+- Release a free training, workshop, or challenge
+- Teach core concepts that naturally lead to your offer
+- Build community and engagement around the topic
+
+**Phase 3: Launch (Days 8-10)**
+- Open enrollment/sales with a clear deadline
+- Daily emails with different angles (story, proof, FAQ, urgency)
+- Social media amplification
+
+**Phase 4: Close (Days 11-14)**
+- Intensify urgency as deadline approaches
+- Final testimonials and case studies
+- "Last chance" messaging
+- Close enrollment (and mean it)
+
+---
+
 ## Launch Checklist
 
 ### Pre-Launch
@@ -350,3 +429,7 @@ Even small changelog updates remind customers your product is evolving. This bui
 - **page-cro**: For optimizing launch landing pages
 - **marketing-psychology**: For psychology behind waitlists and exclusivity
 - **programmatic-seo**: For comparison pages mentioned in post-launch
+- **webinar-script**: For webinar-based launches
+- **offer-creation**: For designing the launch offer
+- **video-sales-content**: For creating launch video content
+- **dream-100-partnerships**: For amplifying launch reach through partners

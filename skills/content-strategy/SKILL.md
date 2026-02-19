@@ -1,8 +1,8 @@
 ---
 name: content-strategy
-description: When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," or "content planning." For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit.
+description: When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "content ideas," "blog strategy," "topic clusters," or "content planning." Also use when the user mentions "content funnel," "funnel content," "dream 100 content," or "content for funnels." For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit.
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 # Content Strategy
@@ -338,6 +338,57 @@ Visual or structured representation of how content interconnects.
 
 ---
 
+## Dream 100 Content Strategy
+
+Integrate your content strategy with Dream 100 partnership opportunities to amplify reach and build authority.
+
+### Content for Dream 100 Outreach
+
+Create content specifically designed to attract and serve your Dream 100 targets (influencers, podcasters, platforms where your audience congregates):
+
+**1. Feature Them First**
+- Quote them in your content (with attribution and tags)
+- Create roundup posts featuring their insights
+- Write case studies analyzing their strategies
+- Share and comment on their content consistently
+
+**2. Create Shareable Assets**
+- Original research they'd want to reference
+- Infographics they'd share with their audience
+- Tools or templates their audience would find valuable
+- Data analyses that support their positions
+
+**3. Guest Content Pipeline**
+- Identify which Dream 100 platforms accept guest content
+- Create topic pitches that serve their audience specifically
+- Develop a 3-touch outreach sequence (engage → provide value → pitch)
+- Always include a bridge back to your owned content (lead magnet, email list)
+
+### Content Funnel Alignment
+
+Map your content to your funnel stages so every piece serves a strategic purpose:
+
+| Funnel Stage | Content Purpose | Content Types | CTA |
+|-------------|----------------|---------------|-----|
+| Awareness | Attract new audience | Blog posts, social content, videos, podcasts | Follow / Subscribe |
+| Lead capture | Convert visitors to leads | Lead magnets, quizzes, free tools, webinar registrations | Download / Register |
+| Nurture | Build trust and desire | Email sequences, case studies, behind-the-scenes | Consume more content |
+| Conversion | Drive purchase decision | Sales pages, webinars, comparison content, testimonials | Buy / Apply |
+| Ascension | Move buyers up Value Ladder | Post-purchase content, advanced training previews | Upgrade / Join |
+| Advocacy | Turn customers into promoters | Community content, referral programs, spotlight features | Share / Refer |
+
+### Content Repurposing for Funnels
+Every piece of content should feed multiple funnel stages:
+
+1. **Pillar content** (blog post, video) → Awareness
+2. **Lead magnet** extracted from pillar → Lead capture
+3. **Email sequence** expanding on the topic → Nurture
+4. **Social snippets** from the pillar → Awareness + engagement
+5. **Case study** related to the topic → Conversion support
+6. **Guest content** pitch based on the pillar → Dream 100 outreach
+
+---
+
 ## Task-Specific Questions
 
 1. What patterns emerge from your last 10 customer conversations?
@@ -355,3 +406,7 @@ Visual or structured representation of how content interconnects.
 - **programmatic-seo**: For scaled content generation
 - **email-sequence**: For email-based content
 - **social-content**: For social media content
+- **dream-100-partnerships**: For the full Dream 100 partnership strategy
+- **funnel-architecture**: For understanding what funnel the content supports
+- **lead-magnet-strategy**: For creating lead magnets from content
+- **value-ladder-design**: For aligning content to the customer journey

@@ -1,8 +1,8 @@
 ---
 name: paid-ads
-description: "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' or 'audience targeting.' This skill covers campaign strategy, ad creation, audience targeting, and optimization."
+description: "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ad copy,' 'ad creative,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' or 'audience targeting.' This skill covers campaign strategy, ad creation, audience targeting, and optimization. Also use when the user mentions 'funnel ads,' 'webinar ads,' 'lead magnet ads,' 'tripwire ads,' or 'application funnel ads.'"
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 # Paid Ads
@@ -255,6 +255,89 @@ Before launching campaigns, ensure proper tracking and account setup.
 
 ---
 
+## Funnel-Specific Ad Strategies
+
+Different funnel types require different ad approaches. Match your ad strategy to your funnel architecture.
+
+### Lead Magnet / Squeeze Funnel Ads
+**Objective:** Generate leads by promoting a free resource
+**Best platforms:** Meta, Google Display, LinkedIn
+**Ad approach:**
+- Lead with the specific problem the lead magnet solves
+- Emphasize "free" prominently
+- Show a preview of the resource (mockup, sample page)
+- CTA: "Get the Free [Guide/Template/Checklist]"
+
+**Targeting:**
+- Interest-based audiences around the topic
+- Lookalikes of existing email subscribers
+- Retargeting blog/content visitors
+
+**Benchmarks:** $1-$5 CPL (B2C), $5-$25 CPL (B2B)
+
+### Webinar Registration Ads
+**Objective:** Drive registrations for live or automated webinar
+**Best platforms:** Meta, YouTube, LinkedIn
+**Ad approach:**
+- Headline focuses on the transformation/outcome of attending
+- Include date/time for live webinars (creates urgency)
+- Social proof: "Join 500+ [persona] who've attended"
+- Video ads showing the presenter perform well
+
+**Targeting:**
+- Lookalikes of past webinar attendees or customers
+- Interest-based audiences in the topic
+- Retargeting lead magnet downloaders (warm audience)
+
+**Benchmarks:** $3-$15 per registration, aim for 30-40% show rate
+
+### Tripwire / Low-Ticket Funnel Ads
+**Objective:** Acquire buyers with a low-cost front-end offer ($7-$47)
+**Best platforms:** Meta, Google Search
+**Ad approach:**
+- Lead with the specific deliverable and price
+- Emphasize the value gap ("$297 value for just $7")
+- Use urgency if applicable (limited time, limited quantity)
+- Show the physical/digital product clearly
+
+**Targeting:**
+- Lookalikes of existing buyers (highest quality)
+- Interest-based audiences
+- Retargeting email subscribers who haven't purchased
+
+**Benchmarks:** $5-$20 CPA, profitability comes from upsells
+
+### High-Ticket Application Funnel Ads
+**Objective:** Drive applications/calls for premium offers ($2K+)
+**Best platforms:** Meta, LinkedIn, YouTube
+**Ad approach:**
+- Lead with transformation stories and case studies
+- Qualify in the ad ("This is for [specific persona] who [criteria]")
+- Longer video ads (2-5 min) work well for building trust
+- CTA: "Apply Now" or "Book Your Strategy Call"
+
+**Targeting:**
+- Lookalikes of existing high-ticket clients
+- Retargeting engaged audiences (video viewers, page visitors)
+- LinkedIn job title + company size targeting
+
+**Benchmarks:** $50-$200 per application, qualify heavily
+
+### Retargeting Across Funnels
+
+**Funnel-aware retargeting sequences:**
+
+| Funnel Stage | Ad Message | Goal |
+|-------------|-----------|------|
+| Visited opt-in but didn't convert | "Don't miss your free [resource]" + testimonial | Complete opt-in |
+| Downloaded lead magnet, didn't buy | Case study + bridge to offer | Move to purchase |
+| Watched webinar, didn't buy | Replay access + urgency + testimonials | Convert attendee |
+| Viewed sales page, didn't buy | Objection handling + guarantee emphasis | Overcome hesitation |
+| Abandoned checkout | "You're almost there" + bonus or discount | Complete purchase |
+| Purchased front-end | Testimonial of transformation from next-level offer | Ascend to core offer |
+
+---
+
 ## Common Mistakes to Avoid
 
 ### Strategy
@@ -312,3 +395,7 @@ For tracking, see also: [ga4.md](../../tools/integrations/ga4.md), [segment.md](
 - **analytics-tracking**: For proper conversion tracking setup
 - **ab-test-setup**: For landing page testing to improve ROAS
 - **page-cro**: For optimizing post-click conversion rates
+- **funnel-architecture**: For understanding which funnel type needs which ad strategy
+- **lead-magnet-strategy**: For the lead magnets being promoted
+- **webinar-script**: For the webinars being promoted
+- **offer-creation**: For the offers being promoted

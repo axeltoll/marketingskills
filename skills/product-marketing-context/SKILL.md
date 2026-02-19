@@ -1,8 +1,8 @@
 ---
 name: product-marketing-context
-description: "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' or wants to avoid repeating foundational information across marketing tasks. Creates `.claude/product-marketing-context.md` that other marketing skills reference."
+description: "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'value ladder,' 'origin story,' 'attractive character,' or wants to avoid repeating foundational information across marketing tasks. Creates `.claude/product-marketing-context.md` that other marketing skills reference."
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 # Product Marketing Context
@@ -124,6 +124,46 @@ The JTBD Four Forces:
 - Key conversion action (what you want people to do)
 - Current metrics (if known)
 
+### 13. Value Ladder
+Map the complete ascending offer journey from free to premium:
+- **Free offer** — What free resource attracts your ideal customer? (lead magnet, free tool, free chapter, quiz, etc.)
+- **Front-end offer** — Low-cost entry product ($7-$97) that converts leads into buyers
+- **Core offer** — Your primary product/service at the main price point
+- **Premium offer** — High-ticket offering for customers who want more ($500-$25,000+)
+- **Continuity offer** — Recurring revenue component (membership, subscription, retainer)
+- What exists at each level today? What's planned?
+
+### 14. Origin Story
+The founder's Epiphany Bridge story — how they discovered the solution and why they're passionate about delivering it:
+- What was life like before discovering the solution?
+- What was the "wall" — the frustration or failure that led to the breakthrough?
+- What was the epiphany moment?
+- What plan emerged from that epiphany?
+- What transformation resulted?
+- Why does this drive your business today?
+
+### 15. Attractive Character
+The communication persona that connects with your audience:
+- **Type**: Leader (leads from the front), Adventurer (discovers and shares), Reporter (researches and curates), or Reluctant Hero (succeeds despite not wanting the spotlight)
+- **Communication style**: How you naturally engage with your audience
+- **Backstory elements**: What makes you relatable to your audience
+- **Character flaws**: What vulnerability makes you human (Pratfall Effect)
+- **Polarity**: What stance do you take that some people will disagree with?
+
+### 16. Big Domino Statement
+The single belief that, once accepted, makes all other objections irrelevant:
+- "If I can make them believe that [new opportunity] is the key to [desired result] and is only attainable through [my specific vehicle], then all other objections become irrelevant."
+- What is that one belief for your business?
+
+### 17. Dream 100 Targets
+Key influencers, platforms, and communities where your ideal customer already congregates:
+- Top influencers/thought leaders in your space (5-10 names)
+- Podcasts your audience listens to
+- Communities they participate in (Facebook groups, Slack, Discord, Reddit, Skool)
+- Newsletters/blogs they read
+- Events they attend
+- Who would be ideal JV/partnership targets?
+
 ---
 
 ## Step 3: Create the Document
@@ -219,6 +259,48 @@ After gathering information, create `.claude/product-marketing-context.md` with 
 **Business goal:**
 **Conversion action:**
 **Current metrics:**
+
+## Value Ladder
+| Level | Offer | Price Point | Status |
+|-------|-------|-------------|--------|
+| Free | | | |
+| Front-end | | | |
+| Core | | | |
+| Premium | | | |
+| Continuity | | | |
+
+## Origin Story
+**Before:**
+**The wall:**
+**Epiphany moment:**
+**Plan that emerged:**
+**Transformation:**
+**Why this drives us:**
+
+## Attractive Character
+**Type:** (Leader / Adventurer / Reporter / Reluctant Hero)
+**Communication style:**
+**Backstory elements:**
+**Character flaw/vulnerability:**
+**Polarity/stance:**
+
+## Big Domino Statement
+"If I can make them believe that [new opportunity] is the key to [desired result] and is only attainable through [my specific vehicle], then all other objections become irrelevant."
+**Our Big Domino:**
+
+## Dream 100 Targets
+**Top influencers:**
+-
+**Podcasts:**
+-
+**Communities:**
+-
+**Newsletters/blogs:**
+-
+**Events:**
+-
+**JV targets:**
+-
 ```
 
 ---
